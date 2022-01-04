@@ -2,23 +2,23 @@ GITHUB NOTES
 -----------------------------------------------------------
 
 1) Connect VSCode with Github 
---------------------------------------
+----------------------------------------------------
 
 1.1) For New Projects 
-----------------------------------
+-----------------------------------------------
 
 => Step 1 -- Setup Project 
---------------------------------
+-------------------------------------------
 
 >> Create a new folder and open that folder inside of VSCode.
 
 => Step 2 -- Git Inilialization 
---------------------------------
+-------------------------------------------
 
 >> Click on the "Git Sidebar Icon" from VSCode and then click on "Initialize Repository".
 
 => Step 3 -- Configure Git(First Time) 
-----------------------------------------
+-------------------------------------------
 
 >> Open "Git CLI" in your project folder & configure Git from "Git Terminal / Git CLI" by running the below commands,
 
@@ -27,9 +27,26 @@ GITHUB NOTES
 > git config --global user.password "yourpassword"
 
 => Step 4 -- Commit Message
---------------------------------
+-------------------------------------------
 
 >> Now, after configuring git, commit a message(comment) to the updated changes and press "ctrl + enter".
+
+=> Step 3 -- Create Repo on Github
+-------------------------------------------
+
+>> Now, go to the "Github Website" 
+>> "Log in to your account" 
+>> "Create a new repository(without readme.md file)" 
+>> Copy link that looks like "https://github.com/your_repo.git"
+
+=> Step 4 -- Authorize VSCode for Github
+-------------------------------------------
+
+>> Click on the VSCode "Settings Icon" from the VSCode sidebar.
+>> Click on "Command Palette" option.
+>> Click on "Git:Publish Branch".
+
+>> First Time Push -- Add a remote URL that looks like "https://github.com/your_repo.git" if you dont have any remote 
 
 **********************************************************************************************************************************
 
