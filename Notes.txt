@@ -41,12 +41,14 @@ GITHUB NOTES
 >> Click on "Command Palette" option.
 >> Click on "Git:Publish Branch".
 
->> First Time Push -- Add a remote URL that looks like "https://github.com/your_repo.git" if you dont have any remote 
+>> First Time Push -- Add a remote URL that looks like "https://github.com/your_repo.git" if you dont have any remote URL / Git Repo there.
 
-=> Step 5 -- Commit Message
+>> Push into Exixting Repo -- In this case, you don't need to add any URL Link, you just need to select the existing repository.
+
+=> Step 5 -- Commit Message & Push Repo
 -------------------------------------------
 
->> Now, after configuring git, commit a message(comment) to the updated changes and press "ctrl + enter".
+>> Now, after configuring git, commit a message(comment) to the updated changes and press "ctrl + enter" and then it will shows a button "sync changes", so click on that button and it will automatically Push & Pull the new changes to Github.
 
 **********************************************************************************************************************************
 
