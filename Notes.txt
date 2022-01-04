@@ -26,11 +26,6 @@ GITHUB NOTES
 > git config --global user.name "yourusername"
 > git config --global user.password "yourpassword"
 
-=> Step 4 -- Commit Message
--------------------------------------------
-
->> Now, after configuring git, commit a message(comment) to the updated changes and press "ctrl + enter".
-
 => Step 3 -- Create Repo on Github
 -------------------------------------------
 
@@ -39,14 +34,19 @@ GITHUB NOTES
 >> "Create a new repository(without readme.md file)" 
 >> Copy link that looks like "https://github.com/your_repo.git"
 
-=> Step 4 -- Authorize VSCode for Github
--------------------------------------------
+=> Step 4 -- Authorize VSCode for Github(First Time)
+------------------------------------------------------
 
 >> Click on the VSCode "Settings Icon" from the VSCode sidebar.
 >> Click on "Command Palette" option.
 >> Click on "Git:Publish Branch".
 
 >> First Time Push -- Add a remote URL that looks like "https://github.com/your_repo.git" if you dont have any remote 
+
+=> Step 5 -- Commit Message
+-------------------------------------------
+
+>> Now, after configuring git, commit a message(comment) to the updated changes and press "ctrl + enter".
 
 **********************************************************************************************************************************
 
