@@ -26,7 +26,7 @@ GITHUB NOTES
 > git config --global user.name "yourusername"
 > git config --global user.password "yourpassword"
 
-=> Step 3 -- Create Repo on Github
+=> Step 4 -- Create Repo on Github
 -------------------------------------------
 
 >> Now, go to the "Github Website" 
@@ -34,7 +34,7 @@ GITHUB NOTES
 >> "Create a new repository(without readme.md file)" 
 >> Copy link that looks like "https://github.com/your_repo.git"
 
-=> Step 4 -- Authorize VSCode for Github(First Time)
+=> Step 5 -- Authorize VSCode for Github(First Time)
 ------------------------------------------------------
 
 >> Click on the VSCode "Settings Icon" from the VSCode sidebar.
@@ -45,7 +45,7 @@ GITHUB NOTES
 
 >> Push into Exixting Repo -- In this case, you don't need to add any URL Link, you just need to select the existing repository.
 
-=> Step 5 -- Commit Message & Push Repo
+=> Step 6 -- Commit Message & Push Repo
 -------------------------------------------
 
 >> Now, after configuring git, commit a message(comment) to the updated changes and press "ctrl + enter" and then it will shows a button "sync changes", so click on that button and it will automatically Push & Pull the new changes to Github.
