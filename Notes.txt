@@ -1,0 +1,49 @@
+GITHUB NOTES 
+-----------------------------------------------------------
+
+1) Connect VSCode with Github 
+--------------------------------------
+
+1.1) For New Projects 
+----------------------------------
+
+=> Step 1 -- Setup Project 
+--------------------------------
+
+>> Create a new folder and open that folder inside of VSCode.
+
+=> Step 2 -- Git Inilialization 
+--------------------------------
+
+>> Click on the "Git Sidebar Icon" from VSCode and then click on "Initialize Repository".
+
+=> Step 3 -- Configure Git(First Time) 
+----------------------------------------
+
+>> Open "Git CLI" in your project folder & configure Git from "Git Terminal / Git CLI" by running the below commands,
+
+> git config --global user.email "your@email.com"
+> git config --global user.name "yourusername"
+> git config --global user.password "yourpassword"
+
+=> Step 4 -- Commit Message
+--------------------------------
+
+>> Now, after configuring git, commit a message(comment) to the updated changes and press "ctrl + enter".
+
+**********************************************************************************************************************************
+
+1.2) For Inilialized Projects 
+--------------------------------
+
+**********************************************************************************************************************************
+
+2) Useful VSCode Extensions 
+--------------------------------
+
+=> Github Repositories -- Github.
+=> Github Notifications -- Fabio Spampinato
+=> GitHub Repository Manager -- Henrique Bruno
+=> GitHub Pull Request Monitor -- Erich Behrens
+
+================================================================================================================================== END OF FILE
