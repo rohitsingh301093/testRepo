@@ -4,13 +4,13 @@ GITHUB NOTES
 1) Connect VSCode with Github 
 ----------------------------------------------------
 
-1.1) For New Projects 
+1.1) For New Projects (Fresh Projects)
 -----------------------------------------------
 
 => Step 1 -- Setup Project 
 -------------------------------------------
 
->> Create a new folder and open that folder inside of VSCode.
+>> First of all create a new folder and open up that folder inside of VSCode.
 
 => Step 2 -- Git Inilialization 
 -------------------------------------------
@@ -41,7 +41,7 @@ GITHUB NOTES
 >> Click on "Command Palette" option.
 >> Click on "Git:Publish Branch".
 
->> First Time Push -- Add a remote URL that looks like "https://github.com/your_repo.git" if you dont have any remote URL / Git Repo there.
+>> First Time Push -- Add a remote URL that looks like "https://github.com/your_repo.git" if you dont add any remote URL / Git Repo there.
 
 >> Push into Exixting Repo -- In this case, you don't need to add any URL Link, you just need to select the existing repository.
 
@@ -52,8 +52,51 @@ GITHUB NOTES
 
 **********************************************************************************************************************************
 
-1.2) For Inilialized Projects 
---------------------------------
+1.1) For Inilialized Projects(React Projects)
+-----------------------------------------------
+
+=> Step 1 -- Create a New ReactJS Project 
+--------------------------------------------
+
+>> First of all, create a fresh / new ReactJS Project and open up that folder inside of VSCode.
+
+=> Step 2 -- Git Inilialization 
+-------------------------------------------
+
+>> The new ReactJS project that we've created by using "CRA template" is already initialized git so we don't need to initialize that project again.
+
+=> Step 3 -- Configure Git(First Time) 
+-------------------------------------------
+
+>> Open "Git CLI" in your project folder & configure Git from "Git Terminal / Git CLI" by running the below commands,
+
+> git config --global user.email "your@email.com"
+> git config --global user.name "yourusername"
+> git config --global user.password "yourpassword"
+
+=> Step 4 -- Create Repo on Github
+-------------------------------------------
+
+>> Now, go to the "Github Website" 
+>> "Log in to your account" 
+>> "Create a new repository(without readme.md file)" 
+>> Copy link that looks like "https://github.com/your_repo.git"
+
+=> Step 5 -- Authorize VSCode for Github(First Time)
+------------------------------------------------------
+
+>> Click on the VSCode "Settings Icon" from the VSCode sidebar.
+>> Click on "Command Palette" option.
+>> Click on "Git:Publish Branch".
+
+>> First Time Push -- Add a remote URL that looks like "https://github.com/your_repo.git" if you dont add any remote URL / Git Repo there.
+
+>> Push into Exixting Repo -- In this case, you don't need to add any URL Link, you just need to select the existing repository.
+
+=> Step 6 -- Commit Message & Push Repo
+-------------------------------------------
+
+>> Now, after configuring git, commit a message(comment) to the updated changes and press "ctrl + enter" and then it will shows a button "sync changes", so click on that button and it will automatically Push & Pull the new changes to Github.
 
 **********************************************************************************************************************************
 
