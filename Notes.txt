@@ -1,24 +1,24 @@
 GITHUB NOTES 
------------------------------------------------------------
+-----------------------------------------------------------------
 
 1) Connect VSCode with Github 
-----------------------------------------------------
+-----------------------------------------------------------------
 
 1.1) For New Projects (Fresh Projects)
------------------------------------------------
+------------------------------------------------------------
 
 => Step 1 -- Setup Project 
--------------------------------------------
+------------------------------------------------------
 
 >> First of all create a new folder and open up that folder inside of VSCode.
 
 => Step 2 -- Git Inilialization 
--------------------------------------------
+------------------------------------------------------
 
 >> Click on the "Git Sidebar Icon" from VSCode and then click on "Initialize Repository".
 
 => Step 3 -- Configure Git(First Time) 
--------------------------------------------
+------------------------------------------------------
 
 >> Open "Git CLI" in your project folder & configure Git from "Git Terminal / Git CLI" by running the below commands,
 
@@ -27,7 +27,7 @@ GITHUB NOTES
 > git config --global user.password "yourpassword"
 
 => Step 4 -- Create Repo on Github
--------------------------------------------
+------------------------------------------------------
 
 >> Now, go to the "Github Website" 
 >> "Log in to your account" 
@@ -46,27 +46,27 @@ GITHUB NOTES
 >> Push into Exixting Repo -- In this case, you don't need to add any URL Link, you just need to select the existing repository.
 
 => Step 6 -- Commit Message & Push Repo
--------------------------------------------
+------------------------------------------------------
 
 >> Now, after configuring git, commit a message(comment) to the updated changes and press "ctrl + enter" and then it will shows a button "sync changes", so click on that button and it will automatically Push & Pull the new changes to Github.
 
 **********************************************************************************************************************************
 
-1.1) For Inilialized Projects(React Projects)
------------------------------------------------
+1.2) For Inilialized Projects(React Projects)
+------------------------------------------------------------
 
 => Step 1 -- Create a New ReactJS Project 
---------------------------------------------
+------------------------------------------------------
 
 >> First of all, create a fresh / new ReactJS Project and open up that folder inside of VSCode.
 
 => Step 2 -- Git Inilialization 
--------------------------------------------
+------------------------------------------------------
 
 >> The new ReactJS project that we've created by using "CRA template" is already initialized git so we don't need to initialize that project again.
 
 => Step 3 -- Configure Git(First Time) 
--------------------------------------------
+------------------------------------------------------
 
 >> Open "Git CLI" in your project folder & configure Git from "Git Terminal / Git CLI" by running the below commands,
 
@@ -75,7 +75,7 @@ GITHUB NOTES
 > git config --global user.password "yourpassword"
 
 => Step 4 -- Create Repo on Github
--------------------------------------------
+------------------------------------------------------
 
 >> Now, go to the "Github Website" 
 >> "Log in to your account" 
@@ -97,6 +97,37 @@ GITHUB NOTES
 -------------------------------------------
 
 >> Now, after configuring git, commit a message(comment) to the updated changes and press "ctrl + enter" and then it will shows a button "sync changes", so click on that button and it will automatically Push & Pull the new changes to Github.
+
+NOTE :- If there is any error comes then open the "Credential Manager" in windows and then clear all the saved "Github Urls".
+
+**********************************************************************************************************************************
+
+2) Using Github Operations 
+--------------------------------------------
+
+a) Commit & Push & Pull Repositories
+---------------------------------------
+
+>> After configuring git, commit a message(comment) to the updated changes and press "ctrl + enter" and then it will shows a button "sync changes", so click on that button and it will automatically Push & Pull the new changes to your project from Github.
+
+b) Clone Repositories
+---------------------------------------
+
+>> Step 1 -- Search a new repository or you can just open your own repository on github.
+>> Step 2 -- After that, copy the repository URL you need to copy that looks like "https://github.com/giovannamoeller/login-form.git".
+
+>> Step 3(Method 1) -- Now, open up VSCode and then click on the "file tab" from the VSCode sidebar and then click on the "clone repository" button, after that vscode ask you the "Repository URL Link" so paste the "Repository URL Link" there and hit enter, after that vscode will ask the path where you wants to clone your project then select the desired location.
+
+>> Step 3(Method 2) -- Now, open up VSCode and then click on the "Git tab" from the VSCode sidebar and then click on the "menu button > clone option", after that vscode ask you the "Repository URL Link" so paste the "Repository URL Link" there and hit enter, after that vscode will ask the path where you wants to clone your project then select the desired location.
+
+Note: -- Cloned Repositories are already initialized.
+
+c) File History
+---------------------------------------
+
+>> In order to see the "File History" of any repository in vscode so just open that Repository in the vscode.
+
+>> After that, click on the "File Tab" and now you see there is an "Timeline" Option right bottom of the vscode, just expand that tab and you will see the commit changes of that particular selected file.
 
 **********************************************************************************************************************************
 
